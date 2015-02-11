@@ -7,10 +7,10 @@ class God
   #   @name = name
   # end
 
-  NAME = "Zeus"
+  @@name = "Zeus"
 
   def speak
-    puts "I am #{@name}"
+    puts "I am #{@@name}"
   end
 
 end
